@@ -1,0 +1,33 @@
+.navbar {
+  background-color: blue;
+  flex: auto;
+  padding: auto;
+}
+.right {
+  background-color: yellow;
+}
+.left {
+  background-color: violet;
+}
+.center {
+  background-color: aquamarine;
+  flex-grow: 4;
+}
+.footer {
+  background-color: gold;
+  flex: auto;
+}
+.container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  text-align: center;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  align-items: stretch;
+  text-align: center;
+}
