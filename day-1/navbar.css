@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding: 0;
+  margin: 0;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: bisque;
+
+  padding: 0;
+  margin: 0;
+}
+.item:hover {
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+}
+
+.item {
+  flex: auto;
+  text-align: center;
+  border: 2px solid white;
+  gap: 20px;
+}
