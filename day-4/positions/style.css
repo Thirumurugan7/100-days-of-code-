@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.header {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+ul {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.divo {
+  background-color: red;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  margin-bottom: 200px;
+}
+
+.thiru {
+  position: sticky;
+  top: 69px;
+}
